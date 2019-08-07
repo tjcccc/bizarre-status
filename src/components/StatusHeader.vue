@@ -17,7 +17,7 @@ export default {
   },
   data: function () {
     return {
-      headerStyle: 'flex items-center justify-between flex-wrap bg-green-800 p-6',
+      headerStyle: 'flex items-center justify-between flex-wrap bg-green-800 p-4',
       titleStyle: 'font-bold text-white mx-auto text-center'
     };
   },
