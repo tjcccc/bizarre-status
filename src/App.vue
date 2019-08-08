@@ -4,13 +4,14 @@
     <div class="container mx-auto flex">
       <div class="flex-1">
         <RoleEquipments v-bind:equiped="role.equipments" />
-        <BattlePower v-bind:role="role"/>
       </div>
       <div class="flex-none w-1/3">
         <AvatarPortrait v-bind:imgUrl="tempPortrait"/>
         <PersonalData v-bind:role="role"/>
+        <BattlePower v-bind:role="role"/>
       </div>
       <div class="flex-1">
+        <JobSkills v-bind:skills="role.skills"/>
       </div>
     </div>
   </div>
@@ -21,6 +22,7 @@ import StatusHeader from './components/StatusHeader';
 import AvatarPortrait from './components/AvatarPortrait';
 import PersonalData from './components/PersonalData';
 import RoleEquipments from './components/RoleEquipments';
+import JobSkills from './components/JobSkills';
 import BattlePower from './components/BattlePower';
 import './styles/app.scss';
 import mockHero from './mock/hero';
@@ -32,6 +34,7 @@ export default {
     AvatarPortrait,
     PersonalData,
     RoleEquipments,
+    JobSkills,
     BattlePower
   },
   data: function () {

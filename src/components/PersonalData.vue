@@ -13,10 +13,10 @@
       <AttributeValue label="力量" v-bind:value="role.attributes.strength.toLocaleString()"/>
       <AttributeValue label="体能" v-bind:value="role.attributes.vitality.toLocaleString()"/>
     .w-full.flex.items-center
-      <AttributeValue label="灵巧" v-bind:value="role.attributes.dexterity.toLocaleString()"/>
       <AttributeValue label="智力" v-bind:value="role.attributes.intelligence.toLocaleString()"/>
-    .w-full.flex.items-center
       <AttributeValue label="精神" v-bind:value="role.attributes.mentality.toLocaleString()"/>
+    .w-full.flex.items-center
+      <AttributeValue label="灵巧" v-bind:value="role.attributes.dexterity.toLocaleString()"/>
       <AttributeValue label="速度" v-bind:value="role.attributes.speed.toLocaleString()"/>
     .w-full.flex.items-center
       <AttributeValue label="幸运" v-bind:value="role.attributes.luck.toLocaleString()"/>

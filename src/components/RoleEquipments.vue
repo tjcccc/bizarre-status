@@ -9,9 +9,19 @@
 
 <style lang="scss" scoped>
 .role-equipments {
-  & > ul > li {
-    display: block;
-    margin: 5px;
+  margin-top: 20px;
+  & > ul {
+    padding: 10px;
+    & > li {
+      display: block;
+      padding: 5px 0;
+      &:first-child {
+        padding-top: 0;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
   }
   & > p {
     line-height: 30px;
