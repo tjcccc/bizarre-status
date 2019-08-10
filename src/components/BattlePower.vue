@@ -1,11 +1,11 @@
 <template lang="pug">
   .battle-power(v-bind:class="containerStyle")
-    <AttributeValue label="物理攻击力" v-bind:value="attributeFormula.calculateAttackPower(role.attributes).toString()"/>
-    <AttributeValue label="防御力" v-bind:value="attributeFormula.calculateDefense(role.attributes).toString()"/>
-    <AttributeValue label="魔法攻击力" v-bind:value="attributeFormula.calculateMagicPower(role.attributes).toString()"/>
-    <AttributeValue label="魔法抵御力" v-bind:value="attributeFormula.calculateMagicResistance(role.attributes).toString()"/>
-    <AttributeValue label="闪避率" v-bind:value="attributeFormula.calculateEvada(role.attributes)"/>
-    <AttributeValue label="魔法闪避率" v-bind:value="attributeFormula.calculateMagicEvada(role.attributes)"/>
+    <AttributeValue label="物理攻击" v-bind:value="attributeFormula.calculateAttackPower(role.attributes).toString()"/>
+    <AttributeValue label="物理防御" v-bind:value="attributeFormula.calculateDefense(role.attributes).toString()"/>
+    <AttributeValue label="魔法攻击" v-bind:value="attributeFormula.calculateMagicPower(role.attributes).toString()"/>
+    <AttributeValue label="魔法抵御" v-bind:value="attributeFormula.calculateMagicResistance(role.attributes).toString()"/>
+    <AttributeValue label="物攻闪避率" v-bind:value="attributeFormula.calculateEvada(role.attributes)"/>
+    <AttributeValue label="魔攻闪避率" v-bind:value="attributeFormula.calculateMagicEvada(role.attributes)"/>
     <AttributeValue label="暴击率" v-bind:value="attributeFormula.calculateCritical(role.attributes)"/>
 </template>
 

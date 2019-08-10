@@ -6,14 +6,14 @@ const mockHero = {
     }
   },
   job: {
-    name: 'Archer',
+    name: 'Tester',
     powerType: 1
   },
   element: {
     name: 'Water'
   },
   weaponType: {
-    name: 'Bow'
+    name: 'IDE'
   },
   attributes: {
     level: 98,
