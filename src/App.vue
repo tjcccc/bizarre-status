@@ -26,7 +26,7 @@ import PersonalData from './components/PersonalData';
 import BattlePower from './components/BattlePower';
 import './styles/app.scss';
 import roleService from './services/role-service';
-import mockHero from './mock/hero';
+// import mockHero from './mock/hero';
 
 export default {
   name: 'app',
